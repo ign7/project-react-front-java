@@ -1,0 +1,38 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;  
+    justify-content: space-around;
+}
+
+.pesquisar{
+    float: right;
+    padding: 2.05rem;
+    display: flex;
+    
+}
+
+
+.filte{
+    float: right;
+    padding: 2.05rem;
+    display: flex;
+}
+
+.saldobox{
+    padding-top: 1.0rem;
+   
+}
+
+.saldo{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
