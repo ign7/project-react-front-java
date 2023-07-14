@@ -56,7 +56,7 @@ const [dataFinal, setDataFinal] = useState(null);
           
           if (dataInicial && dataFinal) {
             transferencias = transferencias.filter((colab) => {
-              const dataTransferencia = moment(colab.data_transferencia).format('YYYY-MM-DD');
+              const dataTransferencia = moment(colab.data_transferencia).format('MM-DD-YYYY-');
               return moment(dataTransferencia).isBetween(dataInicial, dataFinal, null, '[]');
             });
           }
